@@ -629,6 +629,7 @@ function targetInfo() {
     resetScore();
     drawShot(false);
     shots = [];
+    intervalClear();
     animate();
 }
 
